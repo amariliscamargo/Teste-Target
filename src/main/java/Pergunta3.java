@@ -27,7 +27,7 @@ public class Pergunta3 {
             public static void main(String[] args){
 
                 //verifica se o ficheiro existe
-                File Diretorio = new File("src/main/Dados/dados json.json");
+                File Diretorio = new File("src/main/java/Dados/dados.json");
 
                 if(Diretorio.exists() && !Diretorio.isDirectory()){
                     System.out.println(Diretorio + " Arquivo existente");
@@ -40,7 +40,7 @@ public class Pergunta3 {
                     Gson gson = new Gson();
 
                     //Importando o arquivo Json.
-                    FileReader arquivo = new FileReader("src/main/Dados/dados json.json");
+                    FileReader arquivo = new FileReader("src/main/java/Dados/dados.json");
 
                     //Transformando o arquivo Json em objetos Java.
                     Faturamento[] faturamentos = gson.fromJson(arquivo, Faturamento[].class);
