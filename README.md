@@ -2,13 +2,9 @@
 
 
 <h1 align="center">Teste-Target</h1> 
-*Repositório com as respostas do teste Job Rotation - São Paulo da empresa Target Sistemas.*
+<p align="center"> Repositório com as respostas do teste Job Rotation - São Paulo da empresa Target Sistemas.</p>
 <br />
 <br />
-<br />
-<br />
-
-
 
 <p align="center">
  <a href="https://github.com/lucasfloza/Teste-Target/blob/master/src/main/java/Pergunta1.java">Pergunta 1</a> •
@@ -18,10 +14,9 @@
  <a href="https://github.com/lucasfloza/Teste-Target/blob/master/src/main/java/Pergunta5.java">Pergunta 5</a> 
 </p>
 <br />
-<br />
+
  
- 
-### Tabela de conteúdos
+<h3>Tabela de conteúdos</h3>
 
 <!--ts-->
   * Pergunta 1
